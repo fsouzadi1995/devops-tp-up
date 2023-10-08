@@ -47,6 +47,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: ./build/Dockerfile.prod
+          file: ./Dockerfile.prod
           push: true
           tags: ${{ github.repository }}
