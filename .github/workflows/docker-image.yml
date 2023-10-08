@@ -49,3 +49,4 @@ jobs:
           context: .
           file: .build/Dockerfile.prod
           push: true
+          tags: ${{ github.repository }}
