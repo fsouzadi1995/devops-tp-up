@@ -34,6 +34,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: ./Dockerfile.prod
+          file: ./build/Dockerfile.prod
           push: true
           tags: ${{ github.repository }}:${{ github.sha }}
